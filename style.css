@@ -1,0 +1,161 @@
+body{
+  background:no-repeat;
+ background-image: linear-gradient(#2F80ED , #B2FFDA);
+ font-family: Candara;
+
+}
+.boton{
+	font-size: 20px;
+	border-radius: 50px
+	width:150px;
+	height: 60px;
+	margin-left: 110px;
+	padding: 15px;
+
+}
+
+.boton2{
+	font-size: 20px;
+	border-radius: 50px
+	width:150px;
+	height: 60px;
+	margin-left: 150px;
+	padding: 15px;
+
+}
+
+.first{
+	border-radius: 13px;
+	width: 400px;
+	height: 300px;
+	background-color: #3797D5;
+	font-size: 30px;
+	margin-left: 85px;
+}
+
+#name{
+
+	margin-top: 30px;
+	width: 100px;
+	height: 40px;
+	margin-left: 110px;
+	color: #2C4250;
+	background-color: #9FC1D6;
+
+}
+
+#nom{
+
+    margin-top: 30px;
+	width: 100px;
+	height: 40px;
+	margin-left: 150px;
+	color: #2C4250;
+	background-color: #9FC1D6;
+
+}
+.second{
+	position: absolute;
+	border-radius: 13px;
+	width: 540px;
+	height: 300px;
+	background-color: #3797D5;
+	font-size: 30px;
+	margin-left: 720px;
+	margin-top: -300px;
+	}
+
+.third{
+	border-radius: 13px;
+	width: 280px;
+	height: 200px;
+	background-color: #3797D5;
+	font-size: 30px;
+	margin-left: 475px;
+	margin-top: 10px;
+}
+
+#delete{
+	margin-top: 30px;
+	width: 270px;
+	height: 40px;
+	margin-left: 1px;
+	color: #2C4250;
+	background-color: #9FC1D6;
+}
+
+.error{
+	color: transparent;
+	margin-top: 52px;
+}
+
+
+.boton {
+  background: darken($red, 1.5%);
+  font-weight: 100;
+  
+  svg {
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 0; 
+    width: 100%; 
+  }
+  
+  rect {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-dasharray: 422, 0;
+    transition: all 0.35s linear;
+  }
+}
+
+.boton:hover {
+  background: rgba($red, 0);
+  font-weight: 900;
+  letter-spacing: 1px;
+  
+  rect {
+    stroke-width: 5;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+}
+
+.boton2 {
+  background: darken($red, 1.5%);
+  font-weight: 100;
+  
+  svg {
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 0; 
+    width: 100%; 
+  }
+  
+  rect {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-dasharray: 422, 0;
+    transition: all 0.35s linear;
+  }
+}
+
+.boton2:hover {
+  background: rgba($red, 0);
+  font-weight: 900;
+  letter-spacing: 1px;
+  
+  rect {
+    stroke-width: 5;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+}
+
+

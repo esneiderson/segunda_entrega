@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+	<title>EnTREGA 2</title>
+		<script>
+   
+		   
+
+			vec=["esneider"];
+			console.log(vec);
+			var eliminar=function()
+{
+	var i=0;
+	var nom=document.getElementById("nom").value;
+	var last=vec.length-1; 
+	while(i<vec.length)
+	{
+		if(nom==vec[i])
+		{
+			var ult=vec[last];
+			vec[last]=vec[i];
+			vec[i]=ult;
+			vec.pop();
+			console.log(vec);
+			i=vec.length;
+			document.getElementById("delete").value="SE ELIMINO EL NOMBRE   "+nom;
+			document.getElementById("nom").value="";
+		}
+		else
+		{
+			i=i+1;
+			if (nom!=vec[i])
+			{
+				document.getElementById("delete").value=nom+" no se encuentra lastimosamente";
+			}
+		}
+	}
+}
+
+var login=function()
+{
+	var name=document.getElementById("name").value;
+	vec.push(name);
+	console.log(vec);
+	document.getElementById("name").value="";
+}
+
+	</script>
+
+</head>
+
+<body>
+
+
+
+
+
+
+    <div class="first"> 	   		
+  <form >
+  	  <label>INGRESA EL NOMBRE</label><br>
+  	  <input type="text" id="name" placeholder="NOMBRE">
+  	  <br><br><br>
+  	  <input type="button" class="boton" value="ingresar" onclick="login();" >
+      
+  </form>
+</div>  
+  <form class="second">
+  	<label>INGRESA EL NOMBRE PARA ELIMINAR</label><br>
+  	  <input type="text" id="nom" placeholder="NOMBRE">
+  	  <br><br><br>
+
+  	  <input type="button" class="boton2" value="borrar" onclick="eliminar();" >
+  	    <br><br><br>
+  </form>
+   
+
+   <form class="third">
+  	  <label>VEAMOS....</label>
+		<br>
+		<input type="text" maxlength="0" id="delete" placeholder="ANSWER">
+   </form>
+
+
+<button class="fill"> <a href="https://esneiderson.github.io/pagina/"> PAGINA PRINCIPAL</a></button>
+<p class="error">.</p>
+</body>
+</html>
